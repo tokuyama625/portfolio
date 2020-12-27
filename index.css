@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+.kaisha_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kaisha {
+  width: 45%;
+  font-size: 0.9rem;
+}
+
+.kaisha th,
+.kaisha td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.kaisha th {
+  font-weight: bold;
+  background-color: #dedede;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 767px) {
+  .kaisha,
+  .kaisha tr,
+  .kaisha td,
+  .kaisha th {
+    display: block;
+  }
+  .kaisha th {
+    width: auto;
+  }
+}
+.map {
+  width: 45%;
+}
+.ggmap {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 90%;
+  height: 90%;
+}
+.img img {
+  width: 90%;
+}
+.img {
+  text-align: center;
+}
+
+.youtube {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 90%;
+  height: 90%;
+}
+.twitter-wrap {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.sosyal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.insutagram {
+  background-color: #2e4a88;
+  box-shadow: 0 4px 0 #1b3d82;
+  text-shadow: 0 -1px -1px #1b3d82;
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 80px;
+  margin: 10px;
+}
+.insutagram:hover {
+  background-color: #354f84;
+}
+.insutagram:active {
+  top: 2px;
+  box-shadow: 0 2px 0 #1b3d82;
+}
+.twitter {
+  background-color: #008dde;
+  box-shadow: 0 4px 0 #0078bd;
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 80px;
+  margin: 10px;
+}
+.twitter:active {
+  top: 2px;
+  box-shadow: 0 2px 0 #0078bd;
+}
+.twitter:hover {
+  background-color: #1397d8;
+}
+.youtube_buton {
+  background-color: #cc3622;
+  box-shadow: 0 4px 0 #ba2714;
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 80px;
+  margin: 10px;
+}
+.youtube_buton:active {
+  top: 2px;
+  box-shadow: 0 2px 0 #ba2714;
+}
+.youtube_buton:hover {
+  background-color: #d04829;
+}

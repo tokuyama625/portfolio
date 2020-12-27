@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="seo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>徳山のポートフォリオサイト</title>
+</head>
+<body>
+    <header>
+    <div class="mask" id="mask"></div>
+    <div id="page_top"><a href="#"></a></div>
+        <div class="main_rogo">
+            <img src="img/rogo.png" alt="ロゴ">
+        </div>
+        <h1>ポートフォリオサイト</h1>
+        <a class="menubutton" id="menubutton">
+            <div></div>
+            <div></div>
+            <div></div>
+        </a>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html" class="btn-square">HOME</a></li>
+            <li><a href="seo.html" class="btn-square">SEO</a></li>
+            <li><a href="JavaScript.html" class="btn-square">JavaScript・jQuery</a></li>
+            <li><a href="contactform.php" class="btn-square">PHP</a></li>
+        </ul>
+    </nav>
+    <main>
+    <a href="#top" id="btn-backtotop"><span class="arrow arrow_up"></span></a>
+    <h2>このページの説明</h2>
+    <p class="text">このページは私が、職業訓練の朝礼で受講生にＳＥＯとは何か解説する為に制作したページです。いちばんやさしい新しいＳＥＯの教本を１冊熟読し、他の参考サイトを調べてまとめました。発表時間が１５分と短く、このページだけではSEO対策について全ては記載できませんでした。ですが、初心者が最初にSEOとは何かの全体像を把握する為には、どうすればいいかを考え私なりにまとめてみました。<br/>
+    <span class="warning">注意</span>※なるべく、SEOの共通認識を記載しましたが、SEOは奥が深く、人によって違った意見・思考があります。このページは私個人の主観で様々な人の考えを参考にまとめているので、全てを鵜吞みにせず自分なりの正しい知識を身に付けて下さい。
+    </p>
+    <h2>SEOとは?</h2>
+    <div class="main_text__box">
+        <span class="subheading">・SEOとは</span>
+        <p class="text">
+            SEOとは「検索エンジン最適化」のことで、優良な被リンクを集めたり、ユーザーに価値あるコンテンツを提供し、適正に検索エンジンにページ内容を理解・評価されるよう技術的にWebページを最適化することで、Googleなどの検索エンジンでキーワードが検索された場合に、自サイトが上位に表示されるようにすることです。
+        </p>
+    </div>
+    <div class="main_text__box">
+        <span class="subheading">・SEOの目的</span>
+        <p class="text">
+            SEOの目的は「ユーザーに「必要な情報」を「最速」で「わかりやすく」届けること」です。ウェブページを検索上位に表示させることだけではありません。
+            上位表示させることはWeb集客の為で、そのサイトが達成したい最終目標の広告閲覧や商品販売などの収益を上げることに繋げることで初めてSEOが成功していると言えます。
+        </p>
+    </div>
+    <h2 >検索エンジンの仕組み</h2>
+    <div class="main_text__box clearfix">
+        <img class="img_contrivance" src="img/kouji_road_roller.png" alt="ローラー" class="roller_img" />
+        <span class="subheading">・クローラーとは</span>
+        <p class="text">
+            クローラーとは、世界中のサイトを自動的にチェックし、キャッシュとして保存して行きます。クローラーが集めてきたページは、その内容を分析し評価されデータベース化されます。この処理をインデックスと呼びます。つまり、検索結果に表示される為には、まず自分のサイトが検索エンジンにインデックスされる必要があります。ちなみに、私達は検索エンジンを無料で利用していますが、運用にはコストが掛かっています。中身のないページなど技術要件を満たされていないページは、無駄なコストなので、そのようなサイトはクローラーに避けられてしまいます。
+        </p>
+    </div>
+    <div class="main_text__box clearfix">
+        <span class="subheading">・検索順位は簡単には変えられない</span>
+        <img class="img_contrivance" src="img/akudaikan_koban_money.png" alt="賄賂" class="akudaikan_img" />
+        <p class="text">
+              検索エンジン各社は検索結果を意図的に操作されないように、細心の注意を払っています。なので、検索エンジン各社に賄賂を渡したりSEO対策をしたからといって、すぐに検索上位に表示されることはありません。SEO対策をしてから、完全に効果が出るまでに１年は見ておくといいでしょう。ちなみに、Googleの検索順位を決めるシグナルは２００以上あると言われてますが、その内容は公開されていません。
+        <a class="link" href="https://moukegaku.com/google-ranking-algorithm/">（公開されているものもある）</a>
+        </p>
+    </div>
+        <h2>SEOにおいて必須ツール</h2>
+    <div class="main_text__box">
+        <span class="subheading">1.Google Search Console（Googleサーチコンソール）</span>
+        <div class="search_console_img">
+            <img width="30%"hight="30%" src="img/google_search_console.png" alt="search_console" />
+        </div>
+        <p class="text">
+              <a class="link" href="https://search.google.com/search-console/welcome?hl=ja">Google Search Console</a>
+              は、Google 検索結果での自社サイトのパフォーマンスを監視・管理できる
+              Google が提供する無料サービスです。
+              解析対象がサイト訪問前のデータで、ユーザーがサイトに訪れる前の貴重なデータを取得できる、SEO対策に非常に便利なツールです。日本では通称“サチコ”とも呼ばれています。
+            </p>
+            <span class="subheading">☆機能一覧</span>
+        <div class="boox_flex">
+            <div id="wc-shortcodes-item">
+                <ul>
+                    <li>Googleからのアラートメッセージの閲覧・管理</li>
+                    <li>構造化データの確認</li>
+                    <li>リッチカードレポート</li>
+                    <li>データハイライター</li>
+                    <li>AMP</li>
+                    <li>HTMLの改善</li>
+                    <li>サイトリンクの変更</li>
+                </ul>
+            </div>
+            <div id="wc-shortcodes-item">
+                <ul>
+                    <li>リンク元・リンク先のチェック</li>
+                    <li>内部リンクのチェック</li>
+                    <li>手動によるペナルティ対策</li>
+                    <li>インターナショナルターゲティング</li>
+                    <li>モバイルユーザビリティの確認</li>
+                    <li>インデックスステータスの確認</li>
+                    <li>ブロックされたリソースの確認</li>
+                </ul>
+            </div>
+            <div id="wc-shortcodes-item">
+                <ul>
+                    <li>URLの一時的な削除</li>
+                    <li>クロールエラーのチェック</li>
+                    <li>クロールの統計情報の確認</li>
+                    <li>Fetch as Google</li>
+                    <li>robots.txtのテスト</li>
+                    <li>XMLサイトマップ送信後のインデックス確認</li>
+                    <li>URLパラメータ</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main_text__box">
+        <span class="subheading">2.Google analytics(Googleアナリティクス)</span>
+        <div class="analytics_img">
+            <img width="30%"hight="30%" src="img/analytics.png" alt="Google_analytics"/>
+        </div>
+        <p class="text">
+              <a class="link" href="https://analytics.google.com/analytics/web/provision/#/provision">Googleアナリティクス</a>
+              とは、Googleが無料で提供するアクセス解析ツールです。
+              解析対象はサイト訪問後のデータです。登録したサイトのユーザーの行動に関するデータがわかります。
+              データ計測のためにはトラッキングコードと呼ばれるJavaScriptのコードをページに組み込みます。
+              ユーザーがページにアクセスするとこのコードが実行されてGoogleのサーバーにデータが蓄積され、それをGoogleアナリティクスで計測します。
+            </p>
+        <div class="clearfix">
+            <span class="subheading">☆機能一覧</span>
+            <div id="wc-shortcodes-item">
+                <ul>
+                    <li>リアルタイムの利用状況がわかる</li>
+                    <li>ユーザーの基本属性がわかる</li>
+                    <li>ユーザーがどこから来たかがわかる</li>
+                    <li>サイト内でのユーザーの動きがわかる</li>
+                    <li>Webサイトの成果達成状況がわか</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main_text__box">
+        <span class="subheading">3.その他ツール</span>
+        <p class="text">
+            上記で紹介した２つのツールはどこのサイトでも紹介されている鉄板ツールですが、下記で紹介するツールは自分で好きなツールを選択してください。
+        </p>
+        <div class="boox_flex">
+            <div>
+                <span class="subheading">①キーワード対策ツール</span>
+                <div id="wc-shortcodes-item">
+                    <ul>
+                        <li>
+                            <a class="link" href="https://ads.google.com/intl/ja_jp/home/tools/keyword-planner/">Googleキーワードプランナー</a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://login.bizmanager.yahoo.co.jp/login?url=https://promotionalads.business.yahoo.co.jp%2fAdvertiser%2fTools%2fKeywordAdviceTool">Yahoo!キーワードアドバイスツール</a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://trends.google.co.jp/trends/?geo=JP">Googleトレンド</a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://xn--google-up4eub2d4am4poa54cigb9872mrhwb.com/">Googleサジェストキーワード取得</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <span class="subheading">②順位チェック</span>
+                <div id="wc-shortcodes-item">
+                    <ul>
+                        <li><a class="link" href="https://www.gyro-n.com/seo/">Gyro-n SEO</a></li>
+                        <li>
+                            <a class="link" href="https://ferret-one.com/?utm_source=ferret&utm_medium=referral&utm_campaign=1733&_ga=2.151253241.1111178203.1600653660-1517074625.1599833164">ferret one</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <span class="subheading">③被リンクチェック</span>
+                <div id="wc-shortcodes-item">
+                    <ul>
+                        <li><a class="link" href="https://ahrefs.com/ja/">Ahrefs</a></li>
+                        <li><a class="link" href="https://seocheki.net/">SEOチェキ！</a></li>
+                        <li>
+                            <a class="link" href="https://moz.com/link-explorer">Open Site Explorer</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <span class="subheading">④スマホ対策</span>
+                <div id="wc-shortcodes-item">
+                    <ul>
+                        <li>
+                            <a class="link" href="https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect&hl=ja">Mobile-Friendly Test</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="main_title_text">内部対策</h2>
+    <div class="main_text__box">
+        <span class="subheading">・内部対策とは</span>
+        <p class="text">
+            内部対策とは、クローラーがサイトの情報を理解しやすいように、サイトの構造を改善することです。
+            つまり、ユーザーにとって役立つコンテンツを提供しようとすることが内部対策です。<br />
+            具体的にどんな対策をすれば良いかは、下記で解説していきます。
+        </p>
+    </div>
+    <div class="main_text__box">
+        <span class="subheading">・Above the fold（アバブ・ザ・フォールド)</span>
+        <p class="text">
+            Above the
+            foldというのは、スクロールしなくても見ることができる画面の領域のことを言います。GoogleはAbove
+            the
+            foldにコンテンツがほとんどないページや広告が多すぎるページは、訪問者にとって利便性が悪いページとして低く評価する傾向にあります。その為、重要な情報はページの上部に位置しましょう。特にテキストコンテンツが重要視されるので、テキストコンテンツを多くし、広告の比率は最小限にしましょう。<br />※隠しテキストや極小フォントはスパムと判断されるので注意しましょう。
+        </p>
+    </div>
+    <div class="main_text__box">
+        <span class="subheading">・構造化データ</span>
+        <p class="text">
+            <a class="link" href="https://digitalidentity.co.jp/blog/seo/schema-org/structured-data.html#i">構造化データ</a>
+            とは、HTMLで書かれた情報を検索エンジンに理解しやすいようにタグづけしたものです。
+            以前までの検索エンジンは、HTMLで書かれた文字列を単なる記号として認識することしかできず、その文字列の意味まで理解することは難しい状況でした。単なる文字列として認識し、蓄積するのではなく、検索エンジンに名前や住所などを理解させ、知識として蓄積していこうとする「セマンティックWeb」という考え方が登場しました。セマンティックWebとは、検索エンジンに単なる文字列としてテキストを認識させるのではなく、その文字の意味や、文脈、背景などまで理解させようとする考え方です。<br />でも、難しそうと感じる人も多いと思います。そんな人にオススメなのが
+            <a class="link" href="https://www.google.com/webmasters/markup-helper/u/0/">構造化データ マークアップ支援ツール</a>
+            を用いて構造化マークアップを行う方法です。でも、実際に使ってみた感想は、きちんと知識を身に付けて自分でマークアップした方が確実で早いと思いました。
+        </p>
+    </div>
+
+    <div class="boox_flex">
+        <div class="text_area">
+            <span class="subheading">①メリット</span>
+            <div id="wc-shortcodes-item">
+                <ul>
+                    <li>検索エンジンがサイトコンテンツを認識しやすくなる。</li>
+                    <li>
+                        検索結果に<a class="link" href="https://www.irep.co.jp/knowledge/blog/detail/id=46130/">リッチリザルト</a>が表示される。
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="text_area">
+            <span class="subheading">②デメリット</span></h2>
+            <div id="wc-shortcodes-item">
+                <ul>
+                    <li>デザインの改修などの工数がかかる。（コストが増える）</li>
+                    <li>
+                        検索結果に必ず<a class="link" href="https://www.irep.co.jp/knowledge/blog/detail/id=46130/">リッチリザルト</a>が表示されるということはない。
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main_text__box">
+        <span class="subheading">・ソーシャルメディアの活用</span>
+        <p class="text">
+            すでにソーシャルメディアを利用している人ならわかると思いますが、人は自身の体験したことを共有したい時にソーシャルメディアを利用します。サイトにソーシャルボタンを設置しておくと、情報の共有がスムーズになります。配置する場所としては、訪問者が探す必要のないファーストページビュー内かコンテンツを読んで共有したいタイミングに押しやすいページ下部がオススメです。
+        </p>
+        <div id="wc-shortcodes-item">
+            <ul>
+                <li>Twitter</li>
+                <li>Facebook</li>
+                <li>YouTube</li>
+                <li>Instagram</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main_text__box">
+        <span class="subheading">・その他すぐにできること</span>
+        <p class="text">
+            内部対策の細かい内容をいいだすと２００以上あるので自分達が少し気を付けるだけで、できることを紹介したいと思います。
+        </p>
+        <div id="wc-shortcodes-item">
+            <ul>
+                <li>
+                    ページ内で同一ページのリンクが多数発生しないようにする。（スパム行為に注意）
+                </li>
+                <li>
+                    検索キーワードをタイトルに入れる。（キーワード対策ツールを使う）
+                </li>
+                <li>ページネーションを設置する。</li>
+                <li>パンくずリストを設置する。</li>
+                <li>meta descriptionに説明文を入れる。</li>
+                <li>レスポンシブWebデザインでMFIに対応する。</li>
+                <li>
+                    ページの表示速度を早くする。（重たい画像やアニメーションは使わない）
+                </li>
+                <li>見出し（h1～h6）を順番通りに使い、階層構造にする。</li>
+                <li>
+                    サイトやコンテンツの重複、コピペ禁止。オリジナルを心掛ける。（重複はクローラーに避けられる）
+                </li>
+            </ul>
+        </div>
+    </div>
+    <h2>外部対策</h2>
+    <div class="main_text__box">
+        <span class="subheading">・外部対策とは</span>
+        <p class="text">
+              外部SEO対策とは、自分のサイトが被リンクを得ることです。
+              被リンクは、外部のサイトから自分のサイトに向けて設置されたリンクのことです。
+              質の良いサイトからの被リンクが多ければ評価が高くなります。
+              ですが、１００本のゴミリンクよりも、１本の神リンクを大切にしてください。（量より質を重視してください。）<br />
+              ちなみに、被リンク対策はほとんど無くて、やるとしたら<br />
+              ①SNSのボタンを設置して、拡散しやすいようにする。<br />
+              ②自分のサイトと内容の近い質の良いサイトに協賛して（お金を出して）被リンクを貰う。<br />
+              ③コンテンツを充実させて質を高める。（自然な被リンクを増やす）<br />
+              です。
+            </p>
+    </div>
+    <h2>スパム対策</h2>
+    <div class="analytics_img">
+        <img width="30%"hight="30%" src="img/computer_hacker.png" alt="ハッカー"/>
+    </div>
+    <div class="main_text__box">
+        <span class="subheading">・スパム対策の前の注意事項</span>
+        <p class="text">
+            これから話す内容は知らないうちにスパム判定された時や誰かにスパム攻撃をされた時に自分を守る為の知識です。絶対に悪用しないでください。
+        </p>
+    </div>
+    <div class="main_text__box">
+        <span class="subheading">・検索順位が下げられるガイドライン違反</span>
+        <p class="text">
+            スパム行為で順位を上げようとしたサイトは、Googleの定める<a class="link" href="https://support.google.com/webmasters/answer/35769">ガイドライン</a>
+            の違反になります。<br />
+            スパム対策を詳しく説明しているサイトがあったので、そちらで説明したいと思います。<br />
+            <a class="link" href="https://www.seo-pro.jp/seo/spam-seo">やってはいけないSEOスパム行為</a>
+        </p>
+    </div>
+    </main>
+    <footer>
+        <p>Copyright(c)2020 tokuyama.all Rights Reserved.</p>
+    </footer>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="style.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+.bx-wrapper {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.canvas {
+  text-align: center;
+}
+#clock {
+  width: 512px;
+  height: 511px;
+}
+#time {
+  font-size: 2.5rem;
+}
+#str {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+#jpn {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.main_title_box {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1.65rem 2rem;
+  background-color: rgba(165, 210, 255, 0.4);
+  background-image: linear-gradient(
+      90deg,
+      rgba(165, 210, 255, 0.3) 50%,
+      transparent 50%
+    ),
+    linear-gradient(rgba(165, 210, 255, 0.3) 50%, transparent 50%);
+  background-size: 40px 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.test_btn01,
+.test_tgt02 {
+  cursor: pointer;
+}
+.test_tgt01 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 10000;
+}
+.test_tgt01.active {
+  opacity: 1;
+  visibility: visible;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.test_tgt02 {
+  position: fixed;
+  top: 20px;
+  left: 10px;
+}
+.modal_box {
+  background-color: #fff;
+  width: 50vw;
+  height: 100%;
+  margin: 0 auto;
+}
+.modal_box02 {
+  background-color: #fff;
+  width: 50vw;
+  height: 100%;
+  margin: 0 auto;
+}
+.test_tgt01 img {
+  width: 50%;
+  height: 30%;
+  float: left;
+  margin: 20px;
+}
+.text-raght {
+  float: left;
+}
+.modal_box02 img {
+  width: 150px;
+  height: 150px;
+}
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button_box {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
