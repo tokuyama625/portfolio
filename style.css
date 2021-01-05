@@ -177,6 +177,12 @@ main {
 .warning {
   color: red;
 }
+.link-position_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: square;
+}
 /*
 =======================================
 footer CSS
