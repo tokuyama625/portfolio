@@ -43,13 +43,3 @@
   border-radius: 8px;
   padding: 10px;
 }
-.link:link,
-.link:visited {
-  color: #00f;
-}
-.link:hover {
-  color: #f03;
-}
-.warning {
-  color: red;
-}
