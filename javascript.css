@@ -5,6 +5,12 @@
   @media(max-width:480px){
   .button_box{
     flex-direction: column;
+    align-items: center;
+  }
+  .btn-square{
+    width: 50%;
+    text-align: center;
+    margin: 10px;
   }
   }
 .bx-wrapper {
